@@ -46,7 +46,7 @@ Modify the script parameters as needed and run the script to train the GAN and g
 
 ```python
 # Define file path and parameters
-file_path = 'your_sequences.fasta'  # Path to your plain FASTA file
+file_path = 'data/your_sequences.fasta'  # Path to your plain FASTA file
 keywords = ["OS=Homo sapiens", "OS=mus", "OS=ratus"]
 weight_factor = 10
 min_length = 50  # Minimum length of sequences to keep
