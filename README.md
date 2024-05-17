@@ -91,9 +91,36 @@ for seq in decoded_sequences:
     print(seq)
 ```
 
+## Loss Functions
 
-### Architecture
+### Discriminator Loss
 
+The discriminator's loss is calculated as follows:
+```math
+{L}_D = -\mathbb{E}_{x \sim p_{\text{data}}(x)} [\log D(x)] - \mathbb{E}_{z \sim p_z(z)} [\log (1 - D(G(z)))]
+```
+
+### Generator Loss
+
+The generator's loss is calculated as follows:
+
+```math
+{L}_G = -\mathbb{E}_{z \sim p_z(z)} [\log D(G(z))]
+```
+Alternatively, the generator's loss can be expressed as maximizing the discriminator's classification of generated samples:
+```math
+\mathcal{L}_G = \mathbb{E}_{z \sim p_z(z)} [\log D(G(z))]
+```
+
+### Sample Weights
+
+Incorporating sample weights into the discriminator's loss function:
+```math
+\mathcal{L}_D = -\frac{1}{N} \sum_{i=1}^N w_i \left( \log D(x_i) + \log (1 - D(G(z_i))) \right)
+```
+
+
+## Architecture
 ![GAN Architecture](synthetic-protein-sequence-generator.png)
 
 
