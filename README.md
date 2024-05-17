@@ -96,7 +96,7 @@ for seq in decoded_sequences:
 
 ```markdown
 ![GAN Architecture](synthetic-protein-sequence-generator.jpg)
-
+```
 
 ## Notes
 Ensure your FASTA file is properly formatted and contains the relevant keywords in the headers.
