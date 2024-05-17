@@ -1,6 +1,7 @@
 # Synthetic Protein Sequence Generator
 
-A Generative Adversarial Network (GAN) for generating synthetic protein sequences. This project includes features for customizing the training process by assigning weights to sequences based on keywords in their FASTA headers and filtering sequences by length.
+A Generative Adversarial Network (GAN) for generating synthetic protein sequences. This project includes features for customizing the training process by assigning weights to sequences based on keywords in their FASTA headers, filtering sequences by length, and leveraging GPU acceleration for faster training.
+
 
 ## Features
 
