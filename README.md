@@ -22,7 +22,7 @@ pip install -r requirements.txt
 **Clone the repository:**
 
 ```bash
-git clone https://github.com/schematr0n/synthetic-protein-gan.git
+git clone https://github.com/bio-project/synthetic-protein-gan.git
 cd synthetic-protein-gan
 ```
 
