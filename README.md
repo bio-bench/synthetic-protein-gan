@@ -95,7 +95,7 @@ for seq in decoded_sequences:
 ### Architecture
 
 ```markdown
-![GAN Architecture](synthetic-protein-sequence-generator.jpg)
+![GAN Architecture]([synthetic-protein-sequence-generator.jpg](https://github.com/schematr0n/synthetic-protein-gan/blob/main/synthetic-protein-sequence-generator.jpg))
 ```
 
 ## Notes
