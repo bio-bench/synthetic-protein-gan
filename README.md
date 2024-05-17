@@ -94,9 +94,8 @@ for seq in decoded_sequences:
 
 ### Architecture
 
-```markdown
 ![GAN Architecture]([synthetic-protein-sequence-generator.jpg](https://github.com/schematr0n/synthetic-protein-gan/blob/main/synthetic-protein-sequence-generator.jpg?raw=true))
-```
+
 
 ## Notes
 Ensure your FASTA file is properly formatted and contains the relevant keywords in the headers.
