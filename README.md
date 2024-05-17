@@ -121,7 +121,7 @@ Incorporating sample weights into the discriminator's loss function:
 
 
 ## Architecture
-![GAN Architecture](synthetic-protein-sequence-generator.png)
+![GAN Architecture](images/synthetic-protein-sequence-generator.png)
 
 
 ## Notes
