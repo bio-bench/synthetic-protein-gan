@@ -125,9 +125,9 @@ Incorporating sample weights into the discriminator's loss function:
 
 
 ## Notes
-Ensure your FASTA file is properly formatted and contains the relevant keywords in the headers.
-Adjust the parameters according to your specific needs and dataset.
-The script leverages GPU acceleration if available, which can significantly speed up training.
+- Ensure your FASTA file is properly formatted and contains the relevant keywords in the headers.
+- Adjust the parameters according to your specific needs and dataset.
+- The script leverages GPU acceleration if available, which can significantly speed up training.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
